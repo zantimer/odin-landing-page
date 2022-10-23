@@ -125,3 +125,30 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+/* body 3 */
+.body3 {
+    background-color: lightgray;
+    height: auto;
+    width:auto;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote-text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.quote-author {
+    display:flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 30px;
+}
