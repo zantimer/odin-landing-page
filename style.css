@@ -1,0 +1,26 @@
+.body1,
+.header {
+    background-color: #1F2937;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 22px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.top-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    font-size: 16px;
+}
+a {
+    color:white;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
